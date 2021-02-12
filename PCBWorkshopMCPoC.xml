@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/alex/Documents/RITClubs/RITFirst/PCBWorkshopMCPoC/PCBWorkshopMCPoC.sch</source>
+    <date>Thu 11 Feb 2021 07:46:57 PM EST</date>
+    <tool>Eeschema 5.1.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PCB Workshop Motor Controller</title>
+        <company>RIT FIRST Alumni Association</company>
+        <rev>1</rev>
+        <date>2020-09-07</date>
+        <source>PCBWorkshopMCPoC.sch</source>
+        <comment number="1" value="APPVD By: "/>
+        <comment number="2" value="DWN By: A. Kneipp"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J4">
+      <value>CONN_MOTOR</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F56B9CE</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SN74ACT08</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <libsource lib="Logic_Custom" part="SN74ACT08" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5684E1</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74HC14</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC14</datasheet>
+      <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5E673D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F766424</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7B28AA</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7D5496</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7DF10F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F89FF9C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P5.08mm_Vertical_AnodeUp</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5ECEFF</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P5.08mm_Vertical_AnodeUp</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5EDE51</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P5.08mm_Vertical_AnodeUp</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5F02BE</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4002</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P5.08mm_Vertical_AnodeUp</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4002" description="100V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5F096B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>RFP12N10L</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5B988F</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>RFP12N10L</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5DDB4D</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF9Z34NPBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PMOS_GDS" description="P-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5EEB93</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRF9Z34NPBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PMOS_GDS" description="P-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5FEC56</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC14">
+      <aliases>
+        <alias>74LS14</alias>
+      </aliases>
+      <description>Hex inverter schmitt trigger</description>
+      <docs>http://www.ti.com/lit/gpn/sn74HC14</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GDS">
+      <description>P-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <aliases>
+        <alias>1N4002</alias>
+        <alias>1N4003</alias>
+        <alias>1N4004</alias>
+        <alias>1N4005</alias>
+        <alias>1N4006</alias>
+        <alias>1N4007</alias>
+        <alias>BA157</alias>
+        <alias>BA158</alias>
+        <alias>BA159</alias>
+      </aliases>
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Logic_Custom" part="SN74ACT08">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74ACT08</field>
+        <field name="Footprint">Package_DIP:DIP-14_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="Y" type="output"/>
+        <pin num="4" name="A" type="input"/>
+        <pin num="5" name="B" type="input"/>
+        <pin num="6" name="Y" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="Y" type="output"/>
+        <pin num="9" name="A" type="input"/>
+        <pin num="10" name="B" type="input"/>
+        <pin num="11" name="Y" type="output"/>
+        <pin num="12" name="A" type="input"/>
+        <pin num="13" name="B" type="input"/>
+        <pin num="14" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Logic_Custom">
+      <uri>/home/alex/Documents/KiCad/Libraries/Logic_Custom.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="U2" pin="7"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J3" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="13"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="6" name="/A_HIGH">
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="7" name="/A_LOW">
+      <node ref="Q2" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="8" name="/B_HIGH">
+      <node ref="U1" pin="4"/>
+      <node ref="J3" pin="4"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="9" name="/B_LOW">
+      <node ref="U2" pin="8"/>
+      <node ref="J3" pin="5"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="10" name="+5V">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="11" name="VCC">
+      <node ref="Q3" pin="3"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="13" name="/DIR_B">
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="15" name="/MOTOR_B">
+      <node ref="Q4" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="16" name="/MOTOR_A">
+      <node ref="Q2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="17" name="/DIR_A">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="18" name="/PWM_IN">
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+  </nets>
+</export>

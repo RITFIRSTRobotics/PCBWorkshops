@@ -1,0 +1,11 @@
+Reference, Quantity, Value, Footprint, Datasheet
+C1 C2 ,2,".1uF","Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm","~"
+D1 D2 D3 D4 ,4,"1N4002","Diode_THT:D_DO-41_SOD81_P5.08mm_Vertical_AnodeUp","http://www.vishay.com/docs/88503/1n4001.pdf"
+J1 ,1,"Conn_01x04","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~"
+J2 ,1,"Barrel_Jack_Switch","Connector_BarrelJack:BarrelJack_Horizontal","~"
+J3 ,1,"Conn_01x06","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","~"
+J4 ,1,"CONN_MOTOR","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~"
+Q1 Q3 ,2,"IRF9Z34NPBF","Package_TO_SOT_THT:TO-220-3_Vertical","~"
+Q2 Q4 ,2,"RFP12N10L","Package_TO_SOT_THT:TO-220-3_Vertical","~"
+U1 ,1,"74HC14","Package_DIP:DIP-14_W7.62mm_Socket","http://www.ti.com/lit/gpn/sn74HC14"
+U2 ,1,"SN74ACT08","Package_DIP:DIP-14_W7.62mm_Socket",""

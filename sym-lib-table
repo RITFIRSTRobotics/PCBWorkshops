@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name and)(type Legacy)(uri /home/alex/Documents/KiCad/Libraries/and.lib)(options "")(descr ""))
+  (lib (name RITFirstWorkshop)(type Legacy)(uri ${KIPRJMOD}/RITFirstWorkshop.lib)(options "")(descr ""))
+)
